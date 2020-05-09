@@ -1,0 +1,10 @@
+{
+    "title": "order key not present in show (columns) keys",
+    "query": "In courses dataset courses, find entries whose Average is greater than 97; show Department; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Order key needs to be included in columns"
+        }
+    }
+}

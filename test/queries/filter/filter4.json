@@ -1,0 +1,10 @@
+{
+    "title": "SELECT avg FROM courses WHERE avg > 97 OR Department includes \"lfs\" AND pass > 100 ",
+    "query": "In courses dataset courses, find entries whose Average is greater than 88 or Department includes \"lfs\" and Pass is greater than 2500; show Department, Pass and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": []
+        }
+    }
+}

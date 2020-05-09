@@ -1,0 +1,211 @@
+{
+    "title": "using two Key_C",
+    "query": "In courses dataset courses grouped by Department, find entries whose Department includes \"c\"; show Department and avgGrade, where avgGrade is the MAX of Average; sort in descending order by Department and avgGrade.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "soci",
+                    "avgGrade": 88.71
+                },
+                {
+                    "courses_dept": "scie",
+                    "avgGrade": 86.81
+                },
+                {
+                    "courses_dept": "scan",
+                    "avgGrade": 86.35
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "avgGrade": 95
+                },
+                {
+                    "courses_dept": "pcth",
+                    "avgGrade": 96
+                },
+                {
+                    "courses_dept": "onco",
+                    "avgGrade": 93.07
+                },
+                {
+                    "courses_dept": "nrsc",
+                    "avgGrade": 90.67
+                },
+                {
+                    "courses_dept": "musc",
+                    "avgGrade": 96.5
+                },
+                {
+                    "courses_dept": "micb",
+                    "avgGrade": 94.17
+                },
+                {
+                    "courses_dept": "mech",
+                    "avgGrade": 93.5
+                },
+                {
+                    "courses_dept": "larc",
+                    "avgGrade": 92.8
+                },
+                {
+                    "courses_dept": "isci",
+                    "avgGrade": 90.44
+                },
+                {
+                    "courses_dept": "etec",
+                    "avgGrade": 96.47
+                },
+                {
+                    "courses_dept": "eosc",
+                    "avgGrade": 93.47
+                },
+                {
+                    "courses_dept": "elec",
+                    "avgGrade": 93.93
+                },
+                {
+                    "courses_dept": "eece",
+                    "avgGrade": 98.75
+                },
+                {
+                    "courses_dept": "educ",
+                    "avgGrade": 97.5
+                },
+                {
+                    "courses_dept": "edcp",
+                    "avgGrade": 95.58
+                },
+                {
+                    "courses_dept": "econ",
+                    "avgGrade": 95
+                },
+                {
+                    "courses_dept": "eced",
+                    "avgGrade": 93.72
+                },
+                {
+                    "courses_dept": "crwr",
+                    "avgGrade": 98
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "avgGrade": 95
+                },
+                {
+                    "courses_dept": "cpen",
+                    "avgGrade": 86.9
+                },
+                {
+                    "courses_dept": "cons",
+                    "avgGrade": 90.39
+                },
+                {
+                    "courses_dept": "cohr",
+                    "avgGrade": 90.46
+                },
+                {
+                    "courses_dept": "cogs",
+                    "avgGrade": 89.33
+                },
+                {
+                    "courses_dept": "coec",
+                    "avgGrade": 82.77
+                },
+                {
+                    "courses_dept": "cnto",
+                    "avgGrade": 89.42
+                },
+                {
+                    "courses_dept": "cnrs",
+                    "avgGrade": 89.13
+                },
+                {
+                    "courses_dept": "cnps",
+                    "avgGrade": 99.19
+                },
+                {
+                    "courses_dept": "clst",
+                    "avgGrade": 88.4
+                },
+                {
+                    "courses_dept": "clch",
+                    "avgGrade": 79.5
+                },
+                {
+                    "courses_dept": "civl",
+                    "avgGrade": 96.27
+                },
+                {
+                    "courses_dept": "cics",
+                    "avgGrade": 89.68
+                },
+                {
+                    "courses_dept": "chin",
+                    "avgGrade": 86.13
+                },
+                {
+                    "courses_dept": "chil",
+                    "avgGrade": 92
+                },
+                {
+                    "courses_dept": "chbe",
+                    "avgGrade": 95.54
+                },
+                {
+                    "courses_dept": "cens",
+                    "avgGrade": 87.87
+                },
+                {
+                    "courses_dept": "cell",
+                    "avgGrade": 94.4
+                },
+                {
+                    "courses_dept": "ceen",
+                    "avgGrade": 94.27
+                },
+                {
+                    "courses_dept": "ccst",
+                    "avgGrade": 93.67
+                },
+                {
+                    "courses_dept": "caps",
+                    "avgGrade": 89.8
+                },
+                {
+                    "courses_dept": "basc",
+                    "avgGrade": 86.04
+                },
+                {
+                    "courses_dept": "baac",
+                    "avgGrade": 86.81
+                },
+                {
+                    "courses_dept": "atsc",
+                    "avgGrade": 92
+                },
+                {
+                    "courses_dept": "asic",
+                    "avgGrade": 80.79
+                },
+                {
+                    "courses_dept": "arcl",
+                    "avgGrade": 80.82
+                },
+                {
+                    "courses_dept": "arch",
+                    "avgGrade": 90
+                },
+                {
+                    "courses_dept": "arbc",
+                    "avgGrade": 83.13
+                },
+                {
+                    "courses_dept": "apsc",
+                    "avgGrade": 96
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Query with invalid dataset reference, has underscore",
+    "query": "In courses dataset cours_es, find entries whose Average is greater than 90; show Department and Pass; sort in ascending order by Pass.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

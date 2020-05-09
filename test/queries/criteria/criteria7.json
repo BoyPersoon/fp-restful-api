@@ -1,0 +1,15 @@
+{
+    "title": "SELECT dept, avg WHERE dept includes \"lfs\"",
+    "query": "In courses dataset courses, find entries whose Department includes \"lfs\" and Audit is greater than 2; show Department and Audit; sort in ascending order by Audit.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "lfs",
+                    "courses_audit": 3
+                }
+            ]
+        }
+    }
+}

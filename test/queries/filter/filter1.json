@@ -1,0 +1,14 @@
+{
+    "title": "Filter find all entries of smaller file",
+    "query": "In courses dataset smallcourses, find all entries; show Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "smallcourses_avg": 81.2
+                }
+            ]
+        }
+    }
+}

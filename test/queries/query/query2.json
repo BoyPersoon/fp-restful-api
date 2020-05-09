@@ -1,0 +1,15 @@
+{
+    "title": "Query with valid query on the UUID ",
+    "query": "In courses dataset courses, find entries whose UUID does not end with \"sdf\" and UUID includes \"10\" and UUID begins with \"10\" and UUID is \"10\" and UUID is not \"11\" and UUID does not begin with \"2\" and UUID does not include \"2\" and UUID does not end with \"44\"; show Pass and UUID; sort in ascending order by UUID.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_pass": 21,
+                    "courses_uuid": "10"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,676 @@
+{
+    "title": "longer sorting on rooms",
+    "query": "In rooms dataset rooms, find entries whose Address includes \"Main\" and Seats is greater than 5; show Address and Number, Short Name and Full Name and Seats; sort in descending order by Short Name, Address and Seats and Full Name and Number.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "100",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 280
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "209",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 60
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "208",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 40
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "207",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 40
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "206",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 40
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "204",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 40
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "203",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 40
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "202",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 40
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "201",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 40
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "200",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 40
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "1005",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 40
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "1004",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 40
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "1003",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 40
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "1328",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 38
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "205",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 34
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "210",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 24
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "204A",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 24
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "1020",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 24
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "1024",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 20
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "1023",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 20
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "1022",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 20
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_number": "1021",
+                    "rooms_shortname": "SCRF",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_seats": 20
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "166",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 200
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "158",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 74
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "160",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 72
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "154",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 47
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "260",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 32
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "256",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 32
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "358",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 24
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "360M",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 8
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "360L",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 8
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "360K",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 8
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "360J",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 8
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "360H",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 8
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "360G",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 8
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "360F",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 8
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "360E",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 8
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "360D",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 8
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "360C",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 8
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "360B",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 6
+                },
+                {
+                    "rooms_address": "2357 Main Mall",
+                    "rooms_number": "360A",
+                    "rooms_shortname": "MCML",
+                    "rooms_fullname": "MacMillan",
+                    "rooms_seats": 6
+                },
+                {
+                    "rooms_address": "2356 Main Mall",
+                    "rooms_number": "228",
+                    "rooms_shortname": "MCLD",
+                    "rooms_fullname": "MacLeod",
+                    "rooms_seats": 136
+                },
+                {
+                    "rooms_address": "2356 Main Mall",
+                    "rooms_number": "202",
+                    "rooms_shortname": "MCLD",
+                    "rooms_fullname": "MacLeod",
+                    "rooms_seats": 123
+                },
+                {
+                    "rooms_address": "2356 Main Mall",
+                    "rooms_number": "254",
+                    "rooms_shortname": "MCLD",
+                    "rooms_fullname": "MacLeod",
+                    "rooms_seats": 84
+                },
+                {
+                    "rooms_address": "2356 Main Mall",
+                    "rooms_number": "242",
+                    "rooms_shortname": "MCLD",
+                    "rooms_fullname": "MacLeod",
+                    "rooms_seats": 60
+                },
+                {
+                    "rooms_address": "2356 Main Mall",
+                    "rooms_number": "214",
+                    "rooms_shortname": "MCLD",
+                    "rooms_fullname": "MacLeod",
+                    "rooms_seats": 60
+                },
+                {
+                    "rooms_address": "2356 Main Mall",
+                    "rooms_number": "220",
+                    "rooms_shortname": "MCLD",
+                    "rooms_fullname": "MacLeod",
+                    "rooms_seats": 40
+                },
+                {
+                    "rooms_address": "2424 Main Mall",
+                    "rooms_number": "1005",
+                    "rooms_shortname": "FSC",
+                    "rooms_fullname": "Forest Sciences Centre",
+                    "rooms_seats": 250
+                },
+                {
+                    "rooms_address": "2424 Main Mall",
+                    "rooms_number": "1221",
+                    "rooms_shortname": "FSC",
+                    "rooms_fullname": "Forest Sciences Centre",
+                    "rooms_seats": 99
+                },
+                {
+                    "rooms_address": "2424 Main Mall",
+                    "rooms_number": "1003",
+                    "rooms_shortname": "FSC",
+                    "rooms_fullname": "Forest Sciences Centre",
+                    "rooms_seats": 65
+                },
+                {
+                    "rooms_address": "2424 Main Mall",
+                    "rooms_number": "1001",
+                    "rooms_shortname": "FSC",
+                    "rooms_fullname": "Forest Sciences Centre",
+                    "rooms_seats": 65
+                },
+                {
+                    "rooms_address": "2424 Main Mall",
+                    "rooms_number": "1613",
+                    "rooms_shortname": "FSC",
+                    "rooms_fullname": "Forest Sciences Centre",
+                    "rooms_seats": 36
+                },
+                {
+                    "rooms_address": "2424 Main Mall",
+                    "rooms_number": "1611",
+                    "rooms_shortname": "FSC",
+                    "rooms_fullname": "Forest Sciences Centre",
+                    "rooms_seats": 24
+                },
+                {
+                    "rooms_address": "2424 Main Mall",
+                    "rooms_number": "1002",
+                    "rooms_shortname": "FSC",
+                    "rooms_fullname": "Forest Sciences Centre",
+                    "rooms_seats": 24
+                },
+                {
+                    "rooms_address": "2424 Main Mall",
+                    "rooms_number": "1617",
+                    "rooms_shortname": "FSC",
+                    "rooms_fullname": "Forest Sciences Centre",
+                    "rooms_seats": 20
+                },
+                {
+                    "rooms_address": "2424 Main Mall",
+                    "rooms_number": "1615",
+                    "rooms_shortname": "FSC",
+                    "rooms_fullname": "Forest Sciences Centre",
+                    "rooms_seats": 20
+                },
+                {
+                    "rooms_address": "2424 Main Mall",
+                    "rooms_number": "1402",
+                    "rooms_shortname": "FSC",
+                    "rooms_fullname": "Forest Sciences Centre",
+                    "rooms_seats": 18
+                },
+                {
+                    "rooms_address": "2207 Main Mall",
+                    "rooms_number": "1013",
+                    "rooms_shortname": "ESB",
+                    "rooms_fullname": "Earth Sciences Building",
+                    "rooms_seats": 350
+                },
+                {
+                    "rooms_address": "2207 Main Mall",
+                    "rooms_number": "1012",
+                    "rooms_shortname": "ESB",
+                    "rooms_fullname": "Earth Sciences Building",
+                    "rooms_seats": 150
+                },
+                {
+                    "rooms_address": "2207 Main Mall",
+                    "rooms_number": "2012",
+                    "rooms_shortname": "ESB",
+                    "rooms_fullname": "Earth Sciences Building",
+                    "rooms_seats": 80
+                },
+                {
+                    "rooms_address": "2036 Main Mall",
+                    "rooms_number": "B150",
+                    "rooms_shortname": "CHEM",
+                    "rooms_fullname": "Chemistry",
+                    "rooms_seats": 265
+                },
+                {
+                    "rooms_address": "2036 Main Mall",
+                    "rooms_number": "B250",
+                    "rooms_shortname": "CHEM",
+                    "rooms_fullname": "Chemistry",
+                    "rooms_seats": 240
+                },
+                {
+                    "rooms_address": "2036 Main Mall",
+                    "rooms_number": "D300",
+                    "rooms_shortname": "CHEM",
+                    "rooms_fullname": "Chemistry",
+                    "rooms_seats": 114
+                },
+                {
+                    "rooms_address": "2036 Main Mall",
+                    "rooms_number": "D200",
+                    "rooms_shortname": "CHEM",
+                    "rooms_fullname": "Chemistry",
+                    "rooms_seats": 114
+                },
+                {
+                    "rooms_address": "2036 Main Mall",
+                    "rooms_number": "C126",
+                    "rooms_shortname": "CHEM",
+                    "rooms_fullname": "Chemistry",
+                    "rooms_seats": 90
+                },
+                {
+                    "rooms_address": "2036 Main Mall",
+                    "rooms_number": "C124",
+                    "rooms_shortname": "CHEM",
+                    "rooms_fullname": "Chemistry",
+                    "rooms_seats": 90
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "098",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 260
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "254",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 80
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "347",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 70
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "241",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 70
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "345",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 68
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "343",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 68
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "243",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 68
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "334",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 60
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "234",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 60
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "350",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 58
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "295",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 54
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "291",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 54
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "039",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 54
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "037",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 54
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "435",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 53
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "434",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 44
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "354",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 44
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "335",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 41
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "237",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 41
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "235",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 41
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "296",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 37
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "292",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 35
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "437",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 32
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "293",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 32
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "339",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 20
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "432",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 16
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "332",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 16
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_number": "232",
+                    "rooms_shortname": "ANGU",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_seats": 16
+                },
+                {
+                    "rooms_address": "2202 Main Mall",
+                    "rooms_number": "120",
+                    "rooms_shortname": "AERL",
+                    "rooms_fullname": "Aquatic Ecosystems Research Laboratory",
+                    "rooms_seats": 144
+                }
+            ]
+        }
+    }
+}

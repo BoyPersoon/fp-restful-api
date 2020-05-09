@@ -1,0 +1,15 @@
+{
+    "title": "GROUP grades by department and apply (COUNT) on string",
+    "query": "In courses dataset courses grouped by Department, find entries whose Department is \"cpsc\"; show Department and instructorCount, where instructorCount is the COUNT of Instructor.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "cpsc",
+                    "instructorCount": 89
+                }
+            ]
+        }
+    }
+}

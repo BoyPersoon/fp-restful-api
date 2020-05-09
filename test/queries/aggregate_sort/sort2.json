@@ -1,0 +1,23 @@
+{
+    "title": "Sort by key",
+    "query": "In courses dataset courses grouped by Department, find entries whose Department includes \"cn\"; show Department and avgGrade, where avgGrade is the MAX of Average; sort in descending order by Department.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "cnto",
+                    "avgGrade": 89.42
+                },
+                {
+                    "courses_dept": "cnrs",
+                    "avgGrade": 89.13
+                },
+                {
+                    "courses_dept": "cnps",
+                    "avgGrade": 99.19
+                }
+            ]
+        }
+    }
+}

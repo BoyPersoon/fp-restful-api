@@ -1,0 +1,10 @@
+{
+    "title": "Lorax: Empty AND should result in 400.",
+    "query": "In courses dataset courses, find entries whose Average is greater than 97 or ; show Instructor, Audit and Title; sort in ascending order by Title.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

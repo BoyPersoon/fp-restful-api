@@ -1,0 +1,11 @@
+{
+    "title": "mixing dataset Instructor key in rooms",
+    "query": "In rooms dataset rooms, find entries whose Instructor is \"ESB\" and Seats is greater than 100; show Instructor, Number and Seats; sort in ascending order by Seats.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": {
+            }
+        }
+    }
+}

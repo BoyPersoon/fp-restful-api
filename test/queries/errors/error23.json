@@ -1,0 +1,10 @@
+{
+    "title": "String should end with double quote",
+    "query": "In courses dataset courses, find entries whose Department is \"writting text; show Instructor, Audit and Title; sort in ascending order by Title.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "string should not contain \""
+        }
+    }
+}

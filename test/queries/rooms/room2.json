@@ -1,0 +1,32 @@
+{
+    "title": "#2 room test, contains , instead of and ",
+    "query": "In rooms dataset rooms, find entries whose Short Name is \"ESB\" and Latitude is greater than 0 and Longitude is less than 0; show Short Name, Number, Longitude, Seats and Latitude; sort in ascending order by Latitude.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "rooms_shortname": "ESB",
+                    "rooms_number": "1012",
+                    "rooms_lon": -123.25224,
+                    "rooms_seats": 150,
+                    "rooms_lat": 49.26274
+                },
+                {
+                    "rooms_shortname": "ESB",
+                    "rooms_number": "1013",
+                    "rooms_lon": -123.25224,
+                    "rooms_seats": 350,
+                    "rooms_lat": 49.26274
+                },
+                {
+                    "rooms_shortname": "ESB",
+                    "rooms_number": "2012",
+                    "rooms_lon": -123.25224,
+                    "rooms_seats": 80,
+                    "rooms_lat": 49.26274
+                }
+            ]
+        }
+    }
+}

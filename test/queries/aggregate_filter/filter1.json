@@ -1,0 +1,31 @@
+{
+    "title": "Using three keys on all operations with sorting",
+    "query": "In courses dataset courses grouped by Department and Instructor, find entries whose Department includes \"cnp\" and Instructor includes \"lau\"; show Department, Instructor and avgGrade, where avgGrade is the MAX of Average; sort in descending order by avgGrade, Instructor and Department.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "cnps",
+                    "courses_instructor": "klubben, laura",
+                    "avgGrade": 90.75
+                },
+                {
+                    "courses_dept": "cnps",
+                    "courses_instructor": "klubben, laura;westwood, marvin",
+                    "avgGrade": 87.93
+                },
+                {
+                    "courses_dept": "cnps",
+                    "courses_instructor": "daniluk, judith;klubben, laura",
+                    "avgGrade": 87.54
+                },
+                {
+                    "courses_dept": "cnps",
+                    "courses_instructor": "amundson, norman;klubben, laura",
+                    "avgGrade": 83.82
+                }
+            ]
+        }
+    }
+}

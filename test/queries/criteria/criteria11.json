@@ -1,0 +1,183 @@
+{
+    "title": "SELECT dept, avg WHERE dept does not begin width \"lfs\"",
+    "query": "In courses dataset courses, find entries whose Department does not begin with \"e\" and Title includes \"learn\"; show Department and Title; sort in ascending order by Title.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "astu",
+                    "courses_title": "com srv learning"
+                },
+                {
+                    "courses_dept": "astu",
+                    "courses_title": "com srv learning"
+                },
+                {
+                    "courses_dept": "astu",
+                    "courses_title": "com srv learning"
+                },
+                {
+                    "courses_dept": "astu",
+                    "courses_title": "com srv learning"
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_title": "machine learn i"
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_title": "machine learn i"
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_title": "machine learn i"
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_title": "machine learn i"
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_title": "machine learn i"
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_title": "machine learn i"
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_title": "machine learn i"
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_title": "machine learn i"
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_title": "machine learn i"
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_title": "machine learn i"
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_title": "machine learn i"
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_title": "machine learn i"
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_title": "machine learn i"
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_title": "machine learn i"
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_title": "machine learn i"
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_title": "machine learn i"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_title": "rehab learning"
+                }
+            ]
+        }
+    }
+}

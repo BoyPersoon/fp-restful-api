@@ -1,0 +1,14 @@
+{
+    "title": "empty where class should show all rows",
+    "query": "In courses dataset courses grouped by Department, find entries whose Department is \"cpsc\"; show Department.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "cpsc"
+                }
+            ]
+        }
+    }
+}

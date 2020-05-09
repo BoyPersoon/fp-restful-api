@@ -1,0 +1,10 @@
+{
+    "title": "String should not contain double quotes.",
+    "query": "In courses dataset courses, find entries whose Department is \"writting \" with double quote\"; show Instructor, Audit and Title; sort in ascending order by Title.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "string should not contain \""
+        }
+    }
+}

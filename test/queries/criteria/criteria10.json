@@ -1,0 +1,203 @@
+{
+    "title": "SELECT dept, avg WHERE dept is not \"lfs\"",
+    "query": "In courses dataset courses, find entries whose Department is not \"lfs\" and ID includes \"202\" and Department is \"micb\"; show ID and Department; sort in ascending order by ID.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                },
+                {
+                    "courses_id": "202",
+                    "courses_dept": "micb"
+                }
+            ]
+        }
+    }
+}

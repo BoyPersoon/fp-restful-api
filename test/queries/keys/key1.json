@@ -1,0 +1,10 @@
+{
+    "title": "use UUID in unused setting",
+    "query": "In courses dataset courses, find entries whose UUID is \"lfs\"; show UUID and Pass; sort in ascending order by UUID.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": []
+        }
+    }
+}

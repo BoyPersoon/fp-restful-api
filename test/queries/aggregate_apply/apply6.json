@@ -1,0 +1,15 @@
+{
+    "title": "GROUP grades by department and apply (COUNT)",
+    "query": "In courses dataset courses grouped by Department, find entries whose Department is \"cpsc\"; show Department and amountGrade, where amountGrade is the COUNT of Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "cpsc",
+                    "amountGrade": 621
+                }
+            ]
+        }
+    }
+}

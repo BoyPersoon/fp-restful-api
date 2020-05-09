@@ -1,0 +1,10 @@
+{
+    "title": "Queried a non existing dataset",
+    "query": "In courses dataset courses2, find entries whose Average is greater than 90; show Department and Pass; sort in ascending order by Pass.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "missing dataset(s) <<key>>"
+        }
+    }
+}

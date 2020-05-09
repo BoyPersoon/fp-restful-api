@@ -1,0 +1,10 @@
+{
+    "title": "should be String when using S_OP",
+    "query": "In courses dataset courses, find entries whose ID is greater than 202; show ID and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "GT requires a nuber key"
+        }
+    }
+}

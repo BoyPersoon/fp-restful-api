@@ -1,0 +1,10 @@
+{
+    "title": "keys in column/display should be GROUP or APPLY",
+    "query": "In courses dataset courses grouped by Department, find entries whose Average is greater than 98; show Department and Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "All COLUMNS keys need to be either in GROUP or in APPLY"
+        }
+    }
+}

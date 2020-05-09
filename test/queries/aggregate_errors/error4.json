@@ -1,0 +1,10 @@
+{
+    "title": "'SORT' - Any keys provided must be in the COLUMNS. Otherwise, the query is invalid.",
+    "query": "In courses dataset courses grouped by Department, find entries whose Department includes \"c\"; show Department and avgGrade, where avgGrade is the MAX of Average; sort in descending order by Department and Instructor.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Order key needs to be included in columns"
+        }
+    }
+}

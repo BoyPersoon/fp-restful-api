@@ -1,0 +1,55 @@
+{
+    "title": "SELECT dept, avg WHERE dept begins with \"lfs\"",
+    "query": "In courses dataset courses, find entries whose Department begins with \"edcp\" and ID is \"513\"; show Department and ID.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "edcp",
+                    "courses_id": "513"
+                },
+                {
+                    "courses_dept": "edcp",
+                    "courses_id": "513"
+                },
+                {
+                    "courses_dept": "edcp",
+                    "courses_id": "513"
+                },
+                {
+                    "courses_dept": "edcp",
+                    "courses_id": "513"
+                },
+                {
+                    "courses_dept": "edcp",
+                    "courses_id": "513"
+                },
+                {
+                    "courses_dept": "edcp",
+                    "courses_id": "513"
+                },
+                {
+                    "courses_dept": "edcp",
+                    "courses_id": "513"
+                },
+                {
+                    "courses_dept": "edcp",
+                    "courses_id": "513"
+                },
+                {
+                    "courses_dept": "edcp",
+                    "courses_id": "513"
+                },
+                {
+                    "courses_dept": "edcp",
+                    "courses_id": "513"
+                },
+                {
+                    "courses_dept": "edcp",
+                    "courses_id": "513"
+                }
+            ]
+        }
+    }
+}

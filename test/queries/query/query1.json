@@ -1,0 +1,23 @@
+{
+    "title": "without order",
+    "query": "In courses dataset courses, find entries whose Average is less than 1; show ID and Audit.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_id": "100",
+                    "courses_audit": 0
+                },
+                {
+                    "courses_id": "100",
+                    "courses_audit": 0
+                },
+                {
+                    "courses_id": "202",
+                    "courses_audit": 0
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "title": "SELECT avg FROM courses WHERE avg > 97 AND Department includes \"lfs\" OR pass > 100 ",
+    "query": "In courses dataset courses, find entries whose Average is greater than 88 and Department includes \"lfs\" or Pass is greater than 2500; show Department, Pass and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "engl",
+                    "courses_pass": 2502,
+                    "courses_avg": 71.51
+                },
+                {
+                    "courses_dept": "engl",
+                    "courses_pass": 2557,
+                    "courses_avg": 71.71
+                },
+                {
+                    "courses_dept": "engl",
+                    "courses_pass": 2994,
+                    "courses_avg": 71.91
+                },
+                {
+                    "courses_dept": "engl",
+                    "courses_pass": 2698,
+                    "courses_avg": 72.91
+                },
+                {
+                    "courses_dept": "engl",
+                    "courses_pass": 2655,
+                    "courses_avg": 73.17
+                },
+                {
+                    "courses_dept": "lfs",
+                    "courses_pass": 108,
+                    "courses_avg": 88.21
+                },
+                {
+                    "courses_dept": "lfs",
+                    "courses_pass": 4,
+                    "courses_avg": 88.5
+                },
+                {
+                    "courses_dept": "lfs",
+                    "courses_pass": 4,
+                    "courses_avg": 88.5
+                },
+                {
+                    "courses_dept": "lfs",
+                    "courses_pass": 213,
+                    "courses_avg": 88.75
+                },
+                {
+                    "courses_dept": "lfs",
+                    "courses_pass": 105,
+                    "courses_avg": 89.3
+                },
+                {
+                    "courses_dept": "lfs",
+                    "courses_pass": 5,
+                    "courses_avg": 89.6
+                },
+                {
+                    "courses_dept": "lfs",
+                    "courses_pass": 5,
+                    "courses_avg": 89.6
+                },
+                {
+                    "courses_dept": "lfs",
+                    "courses_pass": 6,
+                    "courses_avg": 90.83
+                },
+                {
+                    "courses_dept": "lfs",
+                    "courses_pass": 6,
+                    "courses_avg": 90.83
+                }
+            ]
+        }
+    }
+}

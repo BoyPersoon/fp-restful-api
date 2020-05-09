@@ -1,0 +1,35 @@
+{
+    "title": "SELECT dept, avg WHERE NOT avg > 5",
+    "query": "In courses dataset courses, find entries whose Average is not greater than 5; show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "lfs",
+                    "courses_avg": 0
+                },
+                {
+                    "courses_dept": "lfs",
+                    "courses_avg": 0
+                },
+                {
+                    "courses_dept": "frst",
+                    "courses_avg": 0
+                },
+                {
+                    "courses_dept": "busi",
+                    "courses_avg": 4
+                },
+                {
+                    "courses_dept": "busi",
+                    "courses_avg": 4
+                },
+                {
+                    "courses_dept": "fopr",
+                    "courses_avg": 4.5
+                }
+            ]
+        }
+    }
+}

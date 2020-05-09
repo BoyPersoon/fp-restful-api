@@ -1,0 +1,67 @@
+{
+    "title": "Count on all keys in room",
+    "query": "In rooms dataset rooms grouped by Address, find entries whose Address includes \"Main\" and Seats is greater than 5; show countFullName and countShortName and countNumber and countLatitude and countType, where countFullName is the COUNT of Full Name and countShortName is the COUNT of Short Name and countNumber is the COUNT of Number and countName is the COUNT of Name and countAddress is the COUNT of Address and countLatitude is the COUNT of Latitude and countLongitude is the COUNT of Longitude and countSeats is the COUNT of Seats and countType is the COUNT of Type and countFurniture is the COUNT of Furniture and countLink is the COUNT of Link.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "countFullName": 1,
+                    "countShortName": 1,
+                    "countNumber": 1,
+                    "countLatitude": 1,
+                    "countType": 1
+                },
+                {
+                    "countFullName": 1,
+                    "countShortName": 1,
+                    "countNumber": 6,
+                    "countLatitude": 1,
+                    "countType": 1
+                },
+                {
+                    "countFullName": 1,
+                    "countShortName": 1,
+                    "countNumber": 3,
+                    "countLatitude": 1,
+                    "countType": 1
+                },
+                {
+                    "countFullName": 1,
+                    "countShortName": 1,
+                    "countNumber": 10,
+                    "countLatitude": 1,
+                    "countType": 3
+                },
+                {
+                    "countFullName": 1,
+                    "countShortName": 1,
+                    "countNumber": 28,
+                    "countLatitude": 1,
+                    "countType": 5
+                },
+                {
+                    "countFullName": 1,
+                    "countShortName": 1,
+                    "countNumber": 6,
+                    "countLatitude": 1,
+                    "countType": 3
+                },
+                {
+                    "countFullName": 1,
+                    "countShortName": 1,
+                    "countNumber": 19,
+                    "countLatitude": 1,
+                    "countType": 4
+                },
+                {
+                    "countFullName": 1,
+                    "countShortName": 1,
+                    "countNumber": 22,
+                    "countLatitude": 1,
+                    "countType": 2
+                }
+            ]
+        }
+    }
+}

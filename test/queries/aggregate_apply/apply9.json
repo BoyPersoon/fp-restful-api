@@ -1,0 +1,51 @@
+{
+    "title": "Monster 1, without multiple and",
+    "query": "In courses dataset courses grouped by Department and Instructor, find entries whose Department includes \"cnp\" and Instructor includes \"lau\"; show Department, Instructor and avgGrade and titleCount and maxAudit and maxPass and gemPass and highestGrade, where avgGrade is the AVG of Average, highestGrade is the MAX of Average, titleCount is the COUNT of Title, gemPass is the AVG of Pass and gemAudit is the AVG of Audit and maxPass is the MAX of Pass, maxAudit is the MAX of Audit and lowestGrade is the MIN of Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "cnps",
+                    "courses_instructor": "klubben, laura",
+                    "avgGrade": 87.88,
+                    "highestGrade": 90.75,
+                    "titleCount": 3,
+                    "gemPass": 20.75,
+                    "maxPass": 25,
+                    "maxAudit": 0
+                },
+                {
+                    "courses_dept": "cnps",
+                    "courses_instructor": "amundson, norman;klubben, laura",
+                    "avgGrade": 82.86,
+                    "highestGrade": 83.82,
+                    "titleCount": 1,
+                    "gemPass": 20.5,
+                    "maxPass": 22,
+                    "maxAudit": 0
+                },
+                {
+                    "courses_dept": "cnps",
+                    "courses_instructor": "klubben, laura;westwood, marvin",
+                    "avgGrade": 87.73,
+                    "highestGrade": 87.93,
+                    "titleCount": 1,
+                    "gemPass": 14.5,
+                    "maxPass": 15,
+                    "maxAudit": 0
+                },
+                {
+                    "courses_dept": "cnps",
+                    "courses_instructor": "daniluk, judith;klubben, laura",
+                    "avgGrade": 87.54,
+                    "highestGrade": 87.54,
+                    "titleCount": 1,
+                    "gemPass": 13,
+                    "maxPass": 13,
+                    "maxAudit": 0
+                }
+            ]
+        }
+    }
+}

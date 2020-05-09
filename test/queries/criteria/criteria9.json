@@ -1,0 +1,15 @@
+{
+    "title": "SELECT dept, avg WHERE dept is \"lfs\"",
+    "query": "In courses dataset courses, find entries whose Department is \"lfs\" and Average is equal to 76.66; show Department and Average; sort in ascending order by Department.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "lfs",
+                    "courses_avg": 76.66
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "title": "A query starting with lower case \"in\" instead of \"In\"",
+    "query": "In courses dataset courses, find entries whose Department does not include \"math\" and Department does not include \"biol\" and Instructor begins with \"lean\"; show Department and Instructor; sort in ascending order by Instructor.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "scie",
+                    "courses_instructor": "leander, celeste;steyn, douw gerbrand"
+                },
+                {
+                    "courses_dept": "scie",
+                    "courses_instructor": "leander, celeste;steyn, douw gerbrand"
+                }
+            ]
+        }
+    }
+}

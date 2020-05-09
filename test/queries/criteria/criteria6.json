@@ -1,0 +1,161 @@
+{
+    "title": "SELECT dept, avg WHERE avg > 97",
+    "query": "In courses dataset courses, find entries whose Average is not equal to 0 and Audit is greater than 10; show Department, Audit and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "fren",
+                    "courses_audit": 12,
+                    "courses_avg": 73.4
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_audit": 15,
+                    "courses_avg": 76
+                },
+                {
+                    "courses_dept": "cons",
+                    "courses_audit": 15,
+                    "courses_avg": 76.21
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_audit": 19,
+                    "courses_avg": 77.65
+                },
+                {
+                    "courses_dept": "frst",
+                    "courses_audit": 11,
+                    "courses_avg": 79.64
+                },
+                {
+                    "courses_dept": "frst",
+                    "courses_audit": 11,
+                    "courses_avg": 79.64
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_audit": 14,
+                    "courses_avg": 80.29
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_audit": 11,
+                    "courses_avg": 80.29
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_audit": 12,
+                    "courses_avg": 81.09
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_audit": 14,
+                    "courses_avg": 82.56
+                },
+                {
+                    "courses_dept": "biol",
+                    "courses_audit": 12,
+                    "courses_avg": 84.38
+                },
+                {
+                    "courses_dept": "biol",
+                    "courses_audit": 12,
+                    "courses_avg": 84.38
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_audit": 11,
+                    "courses_avg": 84.5
+                },
+                {
+                    "courses_dept": "cnto",
+                    "courses_audit": 13,
+                    "courses_avg": 84.6
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_audit": 12,
+                    "courses_avg": 84.71
+                },
+                {
+                    "courses_dept": "frst",
+                    "courses_audit": 19,
+                    "courses_avg": 85.56
+                },
+                {
+                    "courses_dept": "frst",
+                    "courses_audit": 19,
+                    "courses_avg": 85.56
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_audit": 19,
+                    "courses_avg": 86
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_audit": 13,
+                    "courses_avg": 86.19
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_audit": 21,
+                    "courses_avg": 86.89
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_audit": 19,
+                    "courses_avg": 87
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_audit": 12,
+                    "courses_avg": 87.03
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_audit": 18,
+                    "courses_avg": 87.14
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_audit": 20,
+                    "courses_avg": 87.26
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_audit": 17,
+                    "courses_avg": 88
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_audit": 15,
+                    "courses_avg": 88.2
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_audit": 12,
+                    "courses_avg": 88.25
+                },
+                {
+                    "courses_dept": "rhsc",
+                    "courses_audit": 23,
+                    "courses_avg": 88.79
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_audit": 21,
+                    "courses_avg": 90.53
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_audit": 18,
+                    "courses_avg": 90.53
+                }
+            ]
+        }
+    }
+}

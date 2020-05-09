@@ -1,0 +1,10 @@
+{
+    "title": "accessing unknown datatype",
+    "query": "In smallcourses dataset courses, find all entries; show Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

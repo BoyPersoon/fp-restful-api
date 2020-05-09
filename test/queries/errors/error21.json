@@ -1,0 +1,10 @@
+{
+    "title": "Kodiak: Invalid nested key should result in 400.",
+    "query": "In courses dataset courses, find entries whose ABC is greater than 97; show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

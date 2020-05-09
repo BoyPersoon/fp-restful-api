@@ -1,0 +1,23 @@
+{
+    "title": "SELECT dept, avg WHERE avg = 0",
+    "query": "In courses dataset courses, find entries whose Average is equal to 0; show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "lfs",
+                    "courses_avg": 0
+                },
+                {
+                    "courses_dept": "lfs",
+                    "courses_avg": 0
+                },
+                {
+                    "courses_dept": "frst",
+                    "courses_avg": 0
+                }
+            ]
+        }
+    }
+}

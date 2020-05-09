@@ -1,0 +1,10 @@
+{
+    "title": "Query with duplicate apply custom key",
+    "query": "In courses dataset courses grouped by Department and Instructor, find entries whose Department includes \"cnp\" and Instructor includes \"lau\"; show Department, Instructor and avgGrade, highestGrade, where avgGrade is the AVG of Average, highestGrade is the MAX of Average and highestGrade is the MIN of Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Duplicate apply key"
+        }
+    }
+}

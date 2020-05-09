@@ -1,0 +1,10 @@
+{
+    "title": "C_Key contains underscore",
+    "query": "In courses dataset courses grouped by Department and Instructor, find entries whose Department includes \"cnp\" and Instructor includes \"lau\"; show Department, Instructor and avg_Grade, where avg_Grade is the MAX of Average; sort in descending order by avg_Grade, Instructor and Department.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Apply keys cannot contain '_'"
+        }
+    }
+}

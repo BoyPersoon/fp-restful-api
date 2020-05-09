@@ -1,0 +1,10 @@
+{
+    "title": "MAX/MIN/AVG should only be requested for numeric keys.",
+    "query": "In courses dataset courses grouped by Department, find entries whose Department includes \"c\"; show Department and avgProf, where avgProf is the MAX of Instructor; sort in descending order by Department and avgProf.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Max supports only numerical values"
+        }
+    }
+}

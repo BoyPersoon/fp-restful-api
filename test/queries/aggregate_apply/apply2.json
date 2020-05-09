@@ -1,0 +1,23 @@
+{
+    "title": "GROUP grades by department and apply (calculate Sum)",
+    "query": "In courses dataset courses grouped by Department, find entries whose Department includes \"cn\"; show Department and avgGrade, where avgGrade is the SUM of Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "cnrs",
+                    "avgGrade": 2439.18
+                },
+                {
+                    "courses_dept": "cnps",
+                    "avgGrade": 62666.26
+                },
+                {
+                    "courses_dept": "cnto",
+                    "avgGrade": 432.66
+                }
+            ]
+        }
+    }
+}

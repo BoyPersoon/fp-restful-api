@@ -1,0 +1,271 @@
+{
+    "title": "SELECT avg FROM courses WHERE avg > 97 OR Department includes \"lzzfs\" OR pass > 100 ",
+    "query": "In courses dataset courses, find entries whose Average is greater than 97 or Department includes \"lzzfs\" or Pass is greater than 2500; show Instructor, Audit and Title; sort in ascending order by Title.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_instructor": "amaral, deborah;ford, laurie",
+                    "courses_audit": 0,
+                    "courses_title": "acad assess schl"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "acad assess schl"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "algb geometry i"
+                },
+                {
+                    "courses_instructor": "karu, kalle",
+                    "courses_audit": 0,
+                    "courses_title": "algb geometry i"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "algb topology i"
+                },
+                {
+                    "courses_instructor": "gomez, jose",
+                    "courses_audit": 0,
+                    "courses_title": "algb topology i"
+                },
+                {
+                    "courses_instructor": "cole, kenneth",
+                    "courses_audit": 0,
+                    "courses_title": "assess lrn diffi"
+                },
+                {
+                    "courses_instructor": "cole, kenneth",
+                    "courses_audit": 0,
+                    "courses_title": "assess lrn diffi"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "assess lrn diffi"
+                },
+                {
+                    "courses_instructor": "cole, kenneth",
+                    "courses_audit": 0,
+                    "courses_title": "assess lrn diffi"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "assess lrn diffi"
+                },
+                {
+                    "courses_instructor": "cox, daniel",
+                    "courses_audit": 0,
+                    "courses_title": "career planning"
+                },
+                {
+                    "courses_instructor": "neault, roberta a",
+                    "courses_audit": 0,
+                    "courses_title": "career planning"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "career planning"
+                },
+                {
+                    "courses_instructor": "krist, jennifer",
+                    "courses_audit": 0,
+                    "courses_title": "cl pro prim care"
+                },
+                {
+                    "courses_instructor": "brew, nancy",
+                    "courses_audit": 0,
+                    "courses_title": "cl pro prim care"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "cl pro prim care"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "cl pro prim care"
+                },
+                {
+                    "courses_instructor": "porath, marion",
+                    "courses_audit": 0,
+                    "courses_title": "coll&uni teachng"
+                },
+                {
+                    "courses_instructor": "kishor, nand",
+                    "courses_audit": 0,
+                    "courses_title": "cor des ed res"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "cor des ed res"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "dev el sk df&hrd"
+                },
+                {
+                    "courses_instructor": "cannon, joanna",
+                    "courses_audit": 0,
+                    "courses_title": "dev el sk df&hrd"
+                },
+                {
+                    "courses_instructor": "fraser, ailana",
+                    "courses_audit": 1,
+                    "courses_title": "diff geometry i"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 1,
+                    "courses_title": "diff geometry i"
+                },
+                {
+                    "courses_instructor": "grow, laura",
+                    "courses_audit": 0,
+                    "courses_title": "educ stds autism"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "educ stds autism"
+                },
+                {
+                    "courses_instructor": "wilk, diana",
+                    "courses_audit": 0,
+                    "courses_title": "educ stds autism"
+                },
+                {
+                    "courses_instructor": "grow, laura",
+                    "courses_audit": 0,
+                    "courses_title": "educ stds autism"
+                },
+                {
+                    "courses_instructor": "grow, laura",
+                    "courses_audit": 0,
+                    "courses_title": "educ stds autism"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "educ stds autism"
+                },
+                {
+                    "courses_instructor": "brew, nancy",
+                    "courses_audit": 0,
+                    "courses_title": "eth&profl issues"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "eth&profl issues"
+                },
+                {
+                    "courses_instructor": "burrows, marlene;harding, jillian;krist, jennifer;mccuaig, fairleth",
+                    "courses_audit": 0,
+                    "courses_title": "fam nrs pract"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "fam nrs pract"
+                },
+                {
+                    "courses_instructor": "burrows, marlene;harding, jillian;krist, jennifer;mccuaig, fairleth",
+                    "courses_audit": 0,
+                    "courses_title": "fam nrs pract"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "fam nrs pract"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "fam nrs pract"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "fam nrs pract"
+                },
+                {
+                    "courses_instructor": "laba, izabella",
+                    "courses_audit": 0,
+                    "courses_title": "harmonic anal i"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "harmonic anal i"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "multimedia sys"
+                },
+                {
+                    "courses_instructor": "coria, lino",
+                    "courses_audit": 0,
+                    "courses_title": "multimedia sys"
+                },
+                {
+                    "courses_instructor": "morgan, tannis",
+                    "courses_audit": 0,
+                    "courses_title": "res mthd in educ"
+                },
+                {
+                    "courses_instructor": "grow, laura",
+                    "courses_audit": 0,
+                    "courses_title": "sem in autism"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "strat univ writ"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "strat univ writ"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "strat univ writ"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "strat univ writ"
+                },
+                {
+                    "courses_instructor": "maillard, keith",
+                    "courses_audit": 0,
+                    "courses_title": "thesis"
+                },
+                {
+                    "courses_instructor": "grady, albert wayne",
+                    "courses_audit": 0,
+                    "courses_title": "thesis"
+                },
+                {
+                    "courses_instructor": "",
+                    "courses_audit": 0,
+                    "courses_title": "univrsty writing"
+                }
+            ]
+        }
+    }
+}

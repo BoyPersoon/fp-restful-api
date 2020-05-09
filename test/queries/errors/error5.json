@@ -1,0 +1,10 @@
+{
+    "title": "should be number",
+    "query": "In courses dataset courses, find entries whose ID is equal to 202; show ID and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "EQ requires a nuber key"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Query with invalid where does not begin with tries to operate on Number Key ",
+    "query": "In courses dataset courses, find entries whose Average does not begin with \"nsdf\"; show Department and Pass; sort in ascending order by Pass.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "IS requires a string key"
+        }
+    }
+}
