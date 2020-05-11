@@ -2,7 +2,7 @@
 Scaffolding for a robust and easily extendable rest-api.
 
 
-EBNF
+**EBNF**
 
 ```
 QUERY  ::= QUERY_NORMAL || QUERY_AGGREGATE
