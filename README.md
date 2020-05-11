@@ -1,6 +1,14 @@
-# fp-restful-api
+# Scaffolding RESTful API
+
 Scaffolding for a robust and easily extendable rest-api.
 
+## Reading & Parsing
+
+Currently this implementation supports reading and parsing from XML and CSV files, and supports persistence by caching
+files in JSON format.
+
+
+## Query Engine
 
 **EBNF**
 
