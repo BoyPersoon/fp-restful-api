@@ -2,6 +2,8 @@
 
 Scaffolding for a robust and easily extendable rest-api.
 
+Current implementation supports reading and querying of two datasets types (courses, rooms). Querying can easily be substituded by new data kinds by adding a new set of keys. Reading and persisting on the other hand would require a new parser.
+
 ## Reading & Parsing
 
 Currently this implementation supports reading and parsing from XML and CSV files, and supports persistence by caching
