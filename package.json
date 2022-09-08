@@ -34,7 +34,7 @@
     "dependencies": {
         "decimal.js": "9.0.1",
         "dotenv": "4.0.0",
-        "jszip": "3.1.5",
+        "jszip": "3.7.0",
         "parse5": "4.0.0",
         "restify": "^4.3.X"
     },
